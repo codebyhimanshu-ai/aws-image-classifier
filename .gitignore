@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environments
+venv/
+.env
+.venv/
+
+# Conda
+.envrc
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Model files (don't push large models)
+models/final/*.keras
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.tar
